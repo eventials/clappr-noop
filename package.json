@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "name": "noop",
   "description": "No player fallback plugin",
   "main": "index.js",

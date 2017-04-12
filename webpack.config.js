@@ -40,7 +40,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '<%=baseUrl%>/',
     filename: filename,
-    library: 'FooBar',
+    library: 'NoOp',
     libraryTarget: 'umd',
   },
 };

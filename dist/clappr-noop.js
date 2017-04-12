@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["Clappr"], factory);
 	else if(typeof exports === 'object')
-		exports["FooBar"] = factory(require("Clappr"));
+		exports["NoOp"] = factory(require("Clappr"));
 	else
-		root["FooBar"] = factory(root["Clappr"]);
+		root["NoOp"] = factory(root["Clappr"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
